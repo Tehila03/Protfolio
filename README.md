@@ -9,7 +9,7 @@ Welcome to my portfolio project! This web application showcases my skills, proje
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-<img width="985" alt="Screen Shot 2023-08-24 at 12 20 06 AM" src="https://github.com/Tehila03/Protfolio/assets/125328462/a72e8081-5f5c-48e8-93db-854ebbd3db92">
+<img width="998" alt="Screen Shot 2023-08-24 at 12 21 18 AM" src="https://github.com/Tehila03/Protfolio/assets/125328462/2c23bae0-19be-47c5-bd56-606d3f601a4b">
 
 
 ## Table of Contents
