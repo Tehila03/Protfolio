@@ -20,7 +20,7 @@
   "dependencies": {
     "gh-pages": "^6.0.0",
     "heroku": "^8.4.0",
-    "node": "14.x",
+    "node": "18.x",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-particles": "^2.12.2",
