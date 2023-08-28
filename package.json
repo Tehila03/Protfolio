@@ -7,9 +7,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d buinpm ld",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "homepage": "https://Tehila03.github.io/protfolio"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -17,8 +18,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "heroku": "^8.4.0",
-    "node": "18.x",
+    "node": "14.x",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-particles": "^2.12.2",
