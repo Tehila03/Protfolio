@@ -1,6 +1,8 @@
 {
   "name": "protfolio",
   "version": "1.0.0",
+  "homepage": "https://github.com/Tehila03/Portfolio",
+  "private": "true",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage": "https://github.com/Tehila03/Portfolio"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
