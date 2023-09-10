@@ -1,7 +1,7 @@
 {
   "name": "protfolio",
   "version": "1.0.0",
-  "homepage": "https://github.com/Tehila03/Portfolio",
+  "homepage": "https://Tehila03.github.io/Portfolio",
   "private": "true",
   "description": "Welcome to my portfolio project! This web application showcases my skills, projects, and experiences as a web developer. The portfolio is built using React, allowing for a dynamic and interactive presentation of my work.",
   "main": "index.js",
