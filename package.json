@@ -6,7 +6,7 @@
   "description": "Welcome to my portfolio project! This web application showcases my skills, projects, and experiences as a web developer. The portfolio is built using React, allowing for a dynamic and interactive presentation of my work.",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
