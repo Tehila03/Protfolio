@@ -1,12 +1,12 @@
 {
-  "name": "protfolio",
-  "version": "1.0.0",
+  "name": "portfolio1",
+  "version": "0.1.0",
+  "private": true,
   "homepage": "https://Tehila03.github.io/Portfolio",
-  "private": "true",
   "description": "Welcome to my portfolio project! This web application showcases my skills, projects, and experiences as a web developer. The portfolio is built using React, allowing for a dynamic and interactive presentation of my work.",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -19,20 +19,20 @@
   "engines": {
     "node": "16.13.1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
     "tailwindcss": "^3.3.3",
     "tslib": "^2.6.2",
     "tsparticles": "^2.12.0",
-    "tsparticles-engine": "^2.12.0",
     "typewriter-effect": "^2.20.1",
-    "web-vitals": "^3.4.0"
+    "web-vitals": "^2.1.4"
   },
   "browserslist": {
     "production": [
@@ -45,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
   }
 }
