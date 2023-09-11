@@ -11,7 +11,7 @@ export default function ProjectCards(props) {
             <div class="flex flex-wrap -mx-1 lg:-mx-4 ">
                 {props.projects.map((project) => (
                     <div class="my-1 px-1 mb-4 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-                        <article className="overflow-hidden border-solid border-cyan-900/30 border-4 h-full rounded-lg shadow-lg bg-white dark:bg-white transform transition duration-500 hover:scale-105 ">
+                        <article className="overflow-hidden  border-solid border-cyan-900/30 border-4 h-full rounded-lg shadow-lg bg-white dark:bg-white transform transition duration-500 hover:scale-105 ">
                             <a href={project.repo} target="_blank">
                                 <img alt="Card Image" className="block  w-full" src={project.image}></img>
                             </a>
