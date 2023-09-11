@@ -18,7 +18,7 @@ const projects = [
         tools: ["Node", "Express", "Babel", "Webpack", "Workbox", "IndexedDB"],
         image: "../images/JATE.png",
         description: "JATE is a single-page text editor application that runs in the browser. This application meets PWA criteria and features multiple data persistence techniques.",
-        repo: "https://github.com/t-starkw/snippet",
+        repo: "https://github.com/Tehila03/pwa-text-editor",
     },
     {
         id: 2,
