@@ -47,11 +47,11 @@ const projects = [
     },
     {
         id: 5,
-        title: "Code-Quiz",
-        tools: ["HTML", "CSS", "JavaScript"],
-        image: require("../assets/quiz.png"),
-        description: "Test your knowledge of basic HTML, CSS, and JavaScript by taking my multiple choice, time-sensitive quiz!",
-        repo: "https://github.com/Tehila03/Code-Quiz",
+        title: "Tech Triage",
+        tools: ["MONGODB", "NODE.JS", "JavaScript", "RACT"],
+        image: require("../assets/tech.png"),
+        description: "This project is designed to streamline and enhance the IT support process by providing a comprehensive Customer Relationship Management (CRM) system tailored specifically for managing and resolving IT support tickets.",
+        repo: "https://github.com/LatrellPage/CRM-Ticket-System-for-IT-Support",
     },
 ]
 
