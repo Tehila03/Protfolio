@@ -41,7 +41,7 @@ npm start
 
 ## Deployed Application
 
-You can view the live application https://tehila-portfolio-7500d2d37584.herokuapp.com/
+You can view the live application [https://tehila-portfolio-7500d2d37584.herokuapp.com/](https://tehila-portfolio-7500d2d37584.herokuapp.com/)
 
 ## Contributing
 
