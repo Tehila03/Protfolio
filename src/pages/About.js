@@ -5,7 +5,7 @@ function About() {
     const typewrite = [
         {
             text: "HELLO, I'M",
-            name: "TEHILA TAL",
+            name: "TEHILA SHAPIRO",
             post: "SOFTWARE DEVELOPER",
             design: "DIGITAL DESIGNER",
             desc:"Elevating digital experiences through Full-Stack Web Development",

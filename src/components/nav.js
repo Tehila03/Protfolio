@@ -1,20 +1,15 @@
 import React from 'react';
 import Toggle from './toggle';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Navbar() {
 
-
   return (
-    <header className="text-gray-700 bg-transparent body-font ">
-      <div className="flex lg:container flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row justify-between">
-        <div className="w-full md:block md:w-auto">
-          <CustomLink
-            to="javascript.void(0)"
-            className="flex items-center w-40 mb-4 font-medium text-gray-900 title-font md:mb-0"
-          >
-            {/* <img src={logo} alt="tailwind" className="w-9 h-9" /> */}
-          </CustomLink>
+    <header className="text-gray-700 bg-transparent body-font">
+      <div className="lg:container flex flex-row items-center justify-between p-5 mx-auto">
+        <div className="flex items-center">
           <nav className="flex flex-wrap items-center justify-center ml-4 text-base">
             <CustomLink
               to="/"
@@ -36,24 +31,29 @@ export default function Navbar() {
             </CustomLink>
           </nav>
         </div>
-        <div>
+        <div className="flex items-center">
+          {/* Add LinkedIn icon */}
+          <a href="https://www.linkedin.com/in/tehilashapiro/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" className="text-blue-500 dark:text-gray-200 mr-4" />
+          </a>
+          {/* Add GitHub icon */}
+          <a href="https://github.com/Tehila03" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="2x" className="text-gray-700 dark:text-white" />
+          </a>
           <Toggle />
         </div>
       </div>
     </header>
   );
-};
+}
 
 function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
   return (
-
     <Link to={to} {...props} className={isActive ? "mr-5 p-4 text-sm font-semibold text-gray-700 dark:text-white border-b-4 border-gray-600 dark:border-white hover:text-gray-700" : "mr-5 p-3 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"}>
       {children}
     </Link>
-
-
-  )
+  );
 }

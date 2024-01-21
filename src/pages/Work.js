@@ -14,11 +14,11 @@ const projects = [
 
     {
         id: 1,
-        title: "J.A.T.E",
-        tools: ["Node", "Express", "Babel", "Webpack", "Workbox", "IndexedDB"],
-        image: require("../assets/JATE.png"),
-        description: "JATE is a single-page text editor application that runs in the browser. This application meets PWA criteria and features multiple data persistence techniques.",
-        repo: "https://github.com/Tehila03/pwa-text-editor",
+        title: "Café Odyssey",
+        tools: ["Next.js", "OpenAI","TextAPI"],
+        image: require("../assets/coffeeshop1.png"),
+        description:"Café Odyssey, born from a weekend project, elevates my Next.js skills and explores AI image and text generation with OpenAI's DALL-E 2. Reflecting our commitment to unaltered creativity, it embodies innovation in the immersive coffee experience we stand for.",
+        repo: "https://github.com/Tehila03/coffee-shop",
     },
     {
         id: 2,
